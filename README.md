@@ -117,7 +117,7 @@ The final website project and accompanying documentation will be submitted befor
 ## Changes made to the website
 ### Part 1
 1. Updated the website Layout
-2. Added an About Us Sect
+2. Added an About Us Section
 3. Added a News & Events
 4. Improved the Website's overall appearance
 
