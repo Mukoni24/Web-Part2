@@ -248,6 +248,10 @@ https://stockcake.com/i/village-meeting-gathering_1131924_751096 [Accessed 3 Aug
 27. StockCake. [n.d.]. Village Gathering Space. [electronic print]. Available at:  
 https://stockcake.com/i/village-gathering-space_335374_72238 [Accessed 3 August 2026].  
 
+###  List of Figures: 
+#### Word Document:  Figures
+1. Figure 2: StockCake. 2026.Sharing community spirit.
+2. Figure 3: StockCake. 2026.Tech store buzz.
 ### Website:  Figures 
 
 3. Figure 1: StockCake. [n.d.]. Village Gathering Space.  
@@ -271,9 +275,4 @@ https://stockcake.com/i/village-gathering-space_335374_72238 [Accessed 3 August 
 29. W3Schools (n.d.) CSS Tutorial. Available at: https://www.w3schools.com/css/ [Accessed: 15 September 2026]. 
 
 30. W3Schools (n.d.) HTML and CSS Tutorial. Available at: https://www.w3schools.com/htmlcss/ [Accessed: 15 September 2026].
-###  List of Figures: 
-#### Word Document:  Figures
-1. Figure 2: StockCake. 2026.Sharing community spirit.
-2. Figure 3: StockCake. 2026.Tech store buzz.
-
 
