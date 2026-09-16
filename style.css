@@ -1,0 +1,855 @@
+/*css reset
+Css statement =
+selectors {
+property: value;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 220px;
+    background-color: white;
+    display: flex;
+    align-items:flex-start;
+    padding: 10px 40px;
+}
+
+/* Logo */
+header img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* Navigation Menu */
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #176b2c;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Menu List */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 15px;
+    white-space: nowrap;
+    padding: 15px 20px;
+
+}
+
+nav a:hover {
+    background-color: #e87520 !important;
+    color: white !important;
+    border-radius:15px;
+}
+
+nav .active {
+    background-color: #e87520;
+}
+
+/* Home page title and slogan */
+.hero-heading {
+    text-align: center;
+    margin: 0;
+    padding: 45px 20px 0;
+}
+
+.hero-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 5px 0;
+    color: #2e6b2e;
+}
+
+.hero-heading .slogan {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 0;
+    color: #2e6b2e;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+/* Lines on both sides of slogan */
+.slogan::before,
+.slogan::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background-color: #2e6b2e;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+main {
+    margin-top:0;
+    padding-top:0;
+}
+
+.intro {
+    margin:0;
+    margin-top: 5px 0 0;
+}
+
+.intro p {
+    margin-top:0;
+}
+
+/* Headings */
+main h1,
+main h2
+main h3,
+main h4 {
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    color: #176b2c !important;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+p {
+    margin-bottom: 25px;
+}
+
+p span {
+    display:block
+}
+
+h2 span {
+    display:block
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px  25px;
+    text-align: center;
+}
+
+main .intro {
+    max-width: 720px;
+    margin:0 auto 12px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align:center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #333;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* text */
+main p {
+    max-width: 720px;
+    margin: 0 auto 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+/* Contact Us*/
+.address span {
+    display:block;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.email span{
+    display:block;
+}
+
+.office-hours span {
+    display: block;
+}
+
+.visit-info span {
+    display: block;
+}
+
+/* Donations */
+/* Donation page heading */
+.donation-heading {
+    text-align: center;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+}
+
+.donation-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 10px;
+    color: #2e6b2e;
+}
+
+.payment-methods{
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods li {
+    list-style-type: none;
+    margin: 3px;
+}
+
+/* Contact */
+/* Contact page heading */
+.contact-heading {
+    text-align: center;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+}
+
+.contact-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #2e6b2e;
+}
+
+/* Enquiry- Form */
+/* Enquiry page heading */
+.enquiry-heading {
+    text-align: center;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+}
+
+.enquiry-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #2e6b2e;
+}
+
+/* Form */
+form {
+    width: 500px;
+    max-width: 90%;
+    margin:0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* FAQ */
+.faq {
+    width: 600px;
+    margin: 30px auto 60px;
+}
+
+.faq h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.faq summary {
+    font-size: 18px;
+}
+
+/* Volunteer */
+/* Volunteer page heading */
+.volunteer-heading {
+    text-align: center;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+}
+
+.volunteer-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #2e6b2e;
+}
+
+/* Volunteer opportunity section */
+.volunteer-section {
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.volunteer-section h2 {
+    text-align: center;
+    margin: 10px auto 15px;
+}
+
+.volunteer-section form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.volunteer-section input,
+.volunteer-section select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+/* News & Events section */
+.news-section {
+    text-align: center;
+    padding: 30px 5%;
+      padding: 30px 5% 60px 5%;
+}
+
+/* Main heading */
+.news-section > h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    color: #2e6b2e;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+/* News & Events / Upcoming Events headings */
+.section-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    color: #2e6b2e;
+    margin: 20px 0 25px 0;
+    text-align: center;
+}
+
+/* Space between the two sections */
+.upcoming-title {
+    margin-top: 60px;
+}
+
+/* TWO CARDS PER ROW */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Green containers */
+.news-card {
+    background-color: #2e6b2e;
+    color: white;
+    padding: 25px;
+    min-height: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Card headings */
+.news-card h2 {
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px;
+    margin: 0 0 8px 0;
+}
+
+/* Dates */
+.news-card h3 {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+/* Paragraph */
+.news-card p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Gallery */
+/* Gallery page heading */
+.gallery-heading {
+    text-align: center;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+}
+
+.gallery-heading h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #2e6b2e;
+}
+
+/* About Us */
+.about {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* About Us heading */
+.about h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    color: #2e6b2e;
+    margin-bottom: 30px;
+}
+
+/* Green containers */
+.about-card {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+    padding: 20px 25px;
+    background-color: #2e6b2e;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Container headings */
+.about-card h2 {
+    color: white;
+    margin: 0 0 8px 0;
+}
+
+/* Container paragraphs */
+.about-card p {
+    color: white;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Community Programmes */
+.programmes {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Main heading */
+.programmes h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    color: #2e6b2e;
+    margin-bottom: 25px;
+}
+
+/* Each green container */
+.programme-card {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 15px auto !important;
+    padding: 20px 25px;
+    background-color: #2e6b2e !important;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Programme headings */
+.programme-card h2 {
+    color: white !important;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Programme paragraphs */
+.programme-card p {
+    color: white !important;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Donations */
+.amount-section {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.amount-section h2 {
+    margin-bottom: 10px;
+}
+
+.amount-buttons {
+    margin-bottom: 10px;
+}
+
+.amount-buttons button {
+    padding: 3px 8px;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.custom-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.custom-amount label {
+    font-size: 18px;
+}
+
+.custom-amount input {
+    width: 260px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.amount-section p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+
+/* Tagline */
+main .tagline {
+    display: block;
+    color: #0f5422;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+    text-align: center;
+}
+
+/* Main Image */
+main img {
+    display: block;
+    width: 1366px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 450px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+}
+
+.gallery img {
+    width: 400%;
+    max-width: 650px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #176b2c;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    margin-top: 60px;
+}
+
+/* Footer columns */
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex;
+    padding: 18px 20px;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-section h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    margin-bottom: 0 0 10px 0;
+    color: white;
+}
+
+.footer-section a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    color: #e87520;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #0f5422;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+/* Mobile */
+/* Smaller images on smaller screens */
+@media (max-width: 768px) {
+    .gallery img {
+        width: 85%;
+        height: 250px;
+    }
+    nav {
+        height:auto;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav ul {
+        height:auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        width:100%;
+        text-align: center;
+    }
+    }
+
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        padding: 9px 7px;
+        font-size: 9px;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    main h1,
+    main h2 {
+        font-size: 23px;
+    }
+
+    main img {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    /* Hamburger button */
+.menu-toggle {
+    display: none;
+    background-color: #176b2c;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+
+/* Desktop navigation */
+nav {
+    width: 100%;
+    background-color: #176b2c;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+/* MOBILE NAVIGATION */
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        width: 100%;
+        background-color: #176b2c;
+        color: white;
+        border: none;
+        font-size: 30px;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    nav {
+        display: none;
+        
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        height: auto;
+        list-style: none;
+        text-align: center;
+        border-bottom: 1px solid rgba(255 , 255 , 255 , 0.2);
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 8px 15px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 700px) {
+
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+
+    .news-section > h1 {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+}
+
