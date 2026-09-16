@@ -121,7 +121,7 @@ The final website project and accompanying documentation will be submitted befor
 3. Added a News & Events
 4. Improved the Website's overall appearance
 
-#### Part 2
+### Part 2
 Updated website design and added CSS styling
 
 1. Added a separate CSS stylesheet to improve the overall appearance of the website.
