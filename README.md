@@ -124,18 +124,26 @@ The final website project and accompanying documentation will be submitted befor
 ### Part 2
 Updated website design and added CSS styling
 
-1. Added a separate CSS stylesheet to improve the overall appearance of the website.
-2. Added a consistent green, white and light-grey colour scheme.
-3. Added custom fonts, font sizes, colours and text alignment.
-4. Improved spacing, margins and padding throughout the pages.
-5. Styled the navigation bar and added hover effects for links.
-6. Added green containers/cards for the Community Programmes.
-7. Added horizontal containers for News & Events and Upcoming Events.
-8. Improved the layout and positioning of headings, paragraphs and images.
-9. Added styling to the footer and organised its information into sections.
-10. Improved the Enquiries and FAQ sections for better presentation.
-11. Added rounded corners and visual styling to content containers.
-12. Made the website more organised and visually consistent compared with the original HTML-only version.
+1. Added a separate CSS stylesheet to control the appearance, layout and styling of the website instead of relying only on HTML formatting.
+2. Introduced a consistent colour scheme using green, white and light-grey colours throughout the website to create a more consistent visual appearance.
+3. Improved typography by adding suitable font families, font sizes, font weights and text colours to make headings, paragraphs and other content easier to read.
+4. Improved spacing and alignment by adjusting margins, padding, line spacing and positioning of different elements across the website.
+5. Styled the navigation bar by improving its layout, spacing, colours and appearance. Hover effects were also added to make navigation links more interactive.
+6. Created styled containers/cards for the Community Programmes so that individual programmes are clearly separated and easier for users to identify.
+7. Added horizontal containers for News & Events and Upcoming Events to organise information into clearly defined sections and improve the overall page structure.
+8. Improved the positioning of headings, paragraphs and images to create a cleaner layout and make the content easier to follow.
+9. Styled images and other visual content using CSS properties such as width, height, borders, spacing and positioning to ensure that images fit appropriately within their containers.
+10. Improved the footer design by adding CSS styling, spacing and organised sections for contact information, links and other relevant website information.
+11. Improved the Enquiries and FAQ sections by applying consistent styling, spacing and container layouts to make the information easier to read and navigate.
+12. Added rounded corners and visual styling to containers and cards using CSS properties such as border-radius, creating a softer and more modern appearance.
+13. Added responsive CSS using media queries so that the website layout can adjust to different screen sizes, including desktop, tablet and mobile devices.
+14. Adjusted containers and content for smaller screens using responsive CSS rules to prevent content from becoming overcrowded or extending beyond the screen.
+15. Improved the responsiveness of images and other media so that visual content can resize appropriately when viewed on different screen sizes.
+16. Added responsive navigation styling to help maintain a usable navigation layout when the website is viewed on smaller screens.
+17. Used CSS flexbox/layout properties to improve the positioning and organisation of containers, cards and other website elements.
+18. Added hover and visual interaction effects to selected links and website elements to provide users with visual feedback when interacting with the website.
+19. Separated content from presentation by moving visual formatting from the HTML document into the external CSS stylesheet, making the website easier to maintain and update.
+20. Overall, improved the website from the original HTML-only version by adding structured CSS styling, responsive design, improved layouts, consistent colours, better spacing, interactive effects and media responsiveness.
 
 ## References 
 
